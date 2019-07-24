@@ -58,7 +58,7 @@ function updatePortfolioRow() {
 			el_div_col_block.setAttribute("onmouseout", "onHoverOutCallback(this)");
 			el_div_col_block.className = "card mb-4 box-shadow";
 				var el_div_col_img = document.createElement("img");
-				el_div_col_img.src = "/img/loading.gif";
+				el_div_col_img.src = "img/loading.gif";
 				el_div_col_img.width = "140";
 				el_div_col_img.height = "140";
 				el_div_col_img.setAttribute("data", portfolioProjects[projectCount].img);
