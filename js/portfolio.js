@@ -1,4 +1,4 @@
-var JSON_DATA_LINK = "https://api.jsonbin.io/b/5d3878db8ba2253fc3a29706/latest";
+var JSON_DATA_LINK = "https://api.jsonbin.io/b/5d389b39a6ac4c4937a59530/latest";
 var portfolioData = null;
 
 function loadPortfolio() {
@@ -17,7 +17,7 @@ function loadPortfolio() {
 
 	xhttp.open("GET", JSON_DATA_LINK, true);
 	xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
-	xhttp.setRequestHeader("secret-key", "$2a$10$Czs941C24iIp1xHGnweHN.6yQxfndYyrw3bZCQFQzM.COGSeDkdTi");
+	xhttp.setRequestHeader("secret-key", "$2a$10$FnNBnmdIQNleVTXqAJgDjOHSkSrNnpqqPKaueYtaWTvF/p63m9Td2");
 	xhttp.send();
 }
 
